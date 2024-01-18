@@ -1,5 +1,5 @@
-players = ['karol', 'martyna', 'michał', 'florian', 'ela']
+players = ['carol', 'martina', 'michael', 'max', 'ella']
 print(players[2:])
-print("Oto trzech pierwszych graczy naszej drużyny:")
+print("Here are the first three players in our team:")
 for player in players[:3]:
     print(player.title())

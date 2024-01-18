@@ -1,11 +1,11 @@
-# użycie polecenia break do opuszczenia petli
-prompt = "\nPodaj nazwy miast, które chciałbyś odwiedzić:"
-prompt += "\n(Gdy zakonczysz podawanie miast, napisz 'koniec'. "
+# using the break command to leave the loop
+prompt = "\nName the cities you would like to visit:"
+prompt += "\n(When you have finished naming the cities, write 'end'). "
 
 while True:
     city = input(prompt)
 
-    if city == 'koniec':
+    if city == 'end':
         break
     else:
-        print(f"Chciałbym odwiedzić {city.title()}!")
+        print(f"I would like to visit {city.title()}!")

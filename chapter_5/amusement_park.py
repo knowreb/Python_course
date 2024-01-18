@@ -7,4 +7,4 @@ elif age <18:
 else:
     price = 40
 
-print(f"Cena biletu wstępu wynosi {price} zł.")
+print(f"The entrance fee is {price} zl.")

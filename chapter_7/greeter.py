@@ -7,7 +7,7 @@ prompt += "\nWhat is your name? "
 name = input(prompt)
 print(f"\nHello, {name}!")
 
-# page199 using function with loop while
+# using function with loop while
 def get_formatted_name(first_name, last_name):
     """Returns an elegantly formatted name."""
     full_name = f"{first_name} {last_name}"

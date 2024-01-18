@@ -1,32 +1,33 @@
-# favorite_languages = {
-#     'janek': 'python',
-#     'sara': 'c',
-#     'edward': 'ruby',
-#     'paweł': 'python',
-#     }
-#
-# language = favorite_languages['sara'].title()
-# print(f"Ulubiony język programowania Sary to {language}.")
-#
-# for name, language in favorite_languages.items():
-#     print(f"Ulubiony język programowania użytkownika {name.title()} to {language.title()}.")
-
-#6.6 ankieta
 favorite_languages = {
-    'janek': 'python',
-    'sara': 'c',
+    'john': 'python',
+    'sarah': 'c',
     'edward': 'ruby',
-    'paweł': 'python',
+    'paul': 'python',
     }
-dodatkowe_osoby = ['elżbieta', 'maria', 'józef']
+
+language = favorite_languages['sara'].title()
+print(f"{language}.")
+
+for name, language in favorite_languages.items():
+    print(f"User's favourite programming language {name.title()} to {language.title()}.")
+
+#6.6 survey
+
+favorite_languages = {
+    'john': 'python',
+    'sarah': 'c',
+    'edward': 'ruby',
+    'paul': 'python',
+    }
+additional_persons = ['elisabeth', 'marie', 'joseph']
 for name in sorted(favorite_languages.keys()):
-    print(f'{name.title()}, dziękujemy za poświęcony czas i udział w ankiecie.')
+    print(f'{name.title()}, thank you for your time and participation in the survey.')
 
-if 'elżbieta' not in favorite_languages.keys():
-    print("Elżbieta, proszę weź udział w naszej ankiecie!")
+if 'elisabeth' not in favorite_languages.keys():
+    print("Elisabeth, please take part in our survey!")
 
-for name in dodatkowe_osoby:
-    print(f'{name.title()}, proszę weź udział w ankiecie!')
+for name in additional_persons:
+    print(f'{name.title()}, please take part in the survey!')
 
 
 favorite_languages = {
@@ -37,6 +38,6 @@ favorite_languages = {
      }
 
 for name, languages in favorite_languages.items():
-    print(f"\nUlubione języki programowania użytkownika {name.title()} to:")
+    print(f"\nUser favourite programming languages {name.title()} is:")
     for language in languages:
         print(f"\t{language.title()}")

@@ -1,5 +1,5 @@
-banned_users = ['andrzej', 'karolina', 'dawid']
-user = 'maria'
+banned_users = ['john', 'caroline', 'david']
+user = 'marie'
 
 if user not in banned_users:
-    print(f"{user.title()}, możesz publikować odpowiedź, jeśli chcesz.")
+    print(f"{user.title()}, you can publish your answer if you wish.")

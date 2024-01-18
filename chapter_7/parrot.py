@@ -1,24 +1,24 @@
-message = input("Powiedz mi coś o sobie, a wyświetlę to na ekranie: ")
+message = input("Tell me something about yourself and I will display it on the screen: ")
 print(message)
 
-# petla while
-prompt = "\nPowiedz mi coś o sobie, a wyświetlę to na ekranie:"
-prompt += "\nNapisz 'koniec', aby zakończyć działanie programu. "
+# while loop
+prompt = "\nTell me something about yourself and I will display it on the screen:"
+prompt += "\nWrite 'end' to end the programme. "
 message = ""
-while message != 'koniec':
+while message != 'end':
     message = input(prompt)
-    if message != 'koniec':
+    if message != 'end':
         print(message)
 
-# dodanie flagi
-prompt = "\nPowiedz mi coś o sobie, a wyświetlę to na ekranie:"
-prompt += "\nNapisz 'koniec', aby zakończyć działanie programu. "
+# addition of a flag
+prompt = "\nTell me something about yourself and I will display it on the screen:"
+prompt += "\nWrite 'end' to end the programme. "
 
 active = True
 while active:
     message = input(prompt)
 
-    if message == 'koniec':
+    if message == 'end':
         active = False
     else:
         print(message)

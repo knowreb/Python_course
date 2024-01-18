@@ -1,20 +1,21 @@
-# magicians = ['alicja', 'dawid', 'karolina']
-# for magician in magicians:
-#     print(f"{magician.title()}, to była doskonała sztuczka!")
-#     print(f"Nie mogę się doczekać Twojej kolejnej sztuczki, {magician.title()}.\n")
+# magiciams
+magicians = ['alice', 'dawid', 'caroline']
+for magician in magicians:
+     print(f"{magician.title()}, it was an excellent trick!")
+     print(f"I can't wait for your next trick, {magician.title()}.\n")
 
-# print("Dziękuję wszystkim. To był naprawdę wspaniały występ!")
+ print("Thank you all. It was a really great performance!")
 
-# pizza
-# pizzas = ['pepperoni', 'margerita', 'capricciosa']
-# for pizza in pizzas:
-#     print(f"Lubię pizzę {pizza.title()}!")
-#
-# print("Naprawdę uwielbiam pizze!")
+# pizzas
+pizzas = ['pepperoni', 'margherita', 'capricciosa']
+for pizza in pizzas:
+     print(f"I like {pizza.title()} pizzas!")
 
-# zwierzęta
-animals = ['pies', 'kot', 'papuga']
+print("I really love pizza!")
+
+# animals
+animals = ['dog', 'cat', 'parrot']
 for animal in animals:
-    print(f'{animal.title()}, jest prawdziwym przyjacielem człowieka!')
+    print(f'{animal.title()}, is a true friend of man!')
 
-print('\nWszystkie wymienione zwierzęta są świetne ale najwspanialszym jest pies!')
+print('\nAll the animals mentioned are great but the greatest is the dog!')

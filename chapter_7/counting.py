@@ -1,10 +1,10 @@
-# wyswietlenie liczb od 1 do 5
+# displaying numbers from 1 to 5
 current_number = 1
 while current_number <= 5:
     print(current_number)
     current_number +=1
 
-# uzycie polecenia continue w petli
+# using the continue command in a loop
 current_number = 0
 while current_number < 10:
     current_number += 1
@@ -13,7 +13,7 @@ while current_number < 10:
 
     print(current_number)
 
-# unikanie petli dzialajacej w nieskonczonosc
+# avoiding the loop running indefinitely
 x=1
 while x <= 5:
     print(x)

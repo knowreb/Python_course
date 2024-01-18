@@ -1,5 +1,5 @@
 age = 17
 if age >=18:
-    print("Możesz wziąć udział w głosowaniu!")
+    print("You can take part in the vote!")
 else:
-    print("Przykro nam, ale jesteś zby młdy aby głosować.")
+    print("Sorry, but you are too young to vote.")

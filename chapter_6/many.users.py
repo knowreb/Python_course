@@ -7,13 +7,13 @@ users = {
     'mcurie': {
         'first': 'maria',
         'last': 'skłodowska-curie',
-        'location': 'paryź'
+        'location': 'paris'
         }
     }
 for username, user_info in users.items():
-    print(f"\nNazwa użytkowinika: {username}")
+    print(f"\nUser name: {username}")
     full_name = f"{user_info['first']} {user_info['last']}"
     location = user_info['location']
 
-    print(f"\tImię i nazwisko: {full_name.title()}")
-    print(f"\tMiejscowość: {location.title()}")
+    print(f"\tName and last name: {full_name.title()}")
+    print(f"\tLocation: {location.title()}")

@@ -1,7 +1,7 @@
-height = input("Ile masz wzrostu (w cm)?")
+height = input("How tall are you (in cm)?")
 height = int(height)
 
 if height >= 90:
-    print("\nJesteś wystarczająco wysoki na przejażdżkę!")
+    print("\nYou're tall enough for the ride!")
 else:
-    print("\nBędziesz mógł się przejechać, gdy nieco urośniesz.")
+    print("\nYou'll be able to take a ride when you've grown up a bit.")

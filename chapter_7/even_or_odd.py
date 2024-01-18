@@ -1,7 +1,7 @@
-number = input("Podaj liczbę, aby dowiedzieć się czy jest parzysta czy nieparzysta: ")
+number = input("Give a number to find out if it is even or odd: ")
 number = int(number)
 
 if number %2 == 0:
-    print(f"\nLiczba {number} jest parzysta.")
+    print(f"\nThe mumber {number} is even.")
 else:
-    print(f"\nLiczba {number} jest nieparzysta.")
+    print(f"\nThe number {number} is odd.")

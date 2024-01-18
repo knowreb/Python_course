@@ -1,10 +1,10 @@
-requested_toppings = ['pieczarki', 'podwójny ser']
+requested_toppings = ['mushrooms', 'double cheese']
 
-if 'pieczarki' in requested_toppings:
-    print("Dodaję pieczarki.")
+if 'mushrooms' in requested_toppings:
+    print("I add mushrooms.")
 if 'pepperoni' in requested_toppings:
-    print("Dodaję pepperoni.")
-if 'podwójny ser' in requested_toppings:
-    print("Dodaję podwójny ser.")
+    print("I add pepperoni.")
+if 'double cheese' in requested_toppings:
+    print("I add double cheese.")
 
-print("\nTwoja pizza jest już gotowa")
+print("\nYour pizza is ready")

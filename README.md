@@ -42,4 +42,6 @@ Project 1 - Alien Invasion
 Project 2 - Data Visualisation
 Project 3 - Web Applications
 
+
+
 I have focused on the data visualisation project because that is what interests me most 😎📊

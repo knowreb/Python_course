@@ -1,9 +1,6 @@
 Welcome!
-
 A course based on the book Python, by Eric Matthens.
 The book consists of two parts: I. Python basics and II. Projects
-
-
 What do the individual sections of part one cover?
 Section I 
 - General information about Python
@@ -16,6 +13,7 @@ Section III
 
 Unit IV 
 - working with lists (analysing for loops, avoiding indentation errors, creating numeric lists, working with list fragments, tuples, code style)
+- 
 Section V 
 - IF construction (conditional test, if statement, use of if statements with lists, style of if statements)
 
@@ -39,9 +37,7 @@ Section XI
 
 Part II.
 Project 1 - Alien Invasion
-Project 2 - Data Visualisation
+Project 2 - Data Visualisation (chapter 15, 16)
 Project 3 - Web Applications
-
-
 
 I have focused on the data visualisation project because that is what interests me most 😎📊
